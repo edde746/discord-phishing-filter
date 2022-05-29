@@ -1,4 +1,5 @@
 import { Client } from 'discord.js';
+import 'dotenv/config';
 
 const client = new Client({
   partials: ['MESSAGE'],
